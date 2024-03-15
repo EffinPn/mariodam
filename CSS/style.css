@@ -1,0 +1,114 @@
+@font-face{
+    font-family: Retro;
+    src:url(../font/RETROTECH.ttf);
+}
+
+#indice {
+    font-family: Retro;
+    background-image: url(../img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+#titulo {
+    
+    color: white;
+    font-size: 52px;
+    
+}
+
+table {
+    height: 500px;
+    width: 800px;
+    border-spacing: 0px;
+    border: 5px groove rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color:rgb(62, 59, 59);
+    
+}
+
+tr {
+    border: 1px groove grey;
+    border-radius: 5px;
+    background-color:rgb(62, 59, 59);
+}
+
+td{
+    height: 40px;
+    width: 40px;
+}
+
+
+#marcador {
+    
+    background-color: black;
+    border: 5px solid black;
+    border-bottom-color: white;
+}
+
+#titulorojo{
+    
+    color: red;
+    font-size: 50px;
+}
+
+.num{
+    
+    color: white;
+    font-size: 32px;
+    margin-right: 50px;
+}
+
+.bola{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#barra{
+    width: 100%;
+    height: 100%;
+}
+
+/*COLORES DE CELDAS*/
+
+.gris{
+    background-color: rgb(62, 59, 59);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.rojo{
+    background-color: rgb(239, 5, 5);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.amarillo{
+    background-color: rgb(239, 216, 5);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.azul{
+    background-color: blue;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.rosa{
+    background-color: violet;
+    border: 1px outset grey;
+    border-radius: 2px;
+
+}
+
+.verde{
+    background-color: green;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+
